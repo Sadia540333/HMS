@@ -15,83 +15,62 @@ a{
 .row {
     --bs-gutter-x: 0;
 }
-.title h3{
-    font-size: 30px;
-    color: #063852;
-}
 .title span{
         color:#01b3fb;
 }
-.btn , .btn2:hover{
-	color: #101010;
-	background: #fff;
-	padding: 10px 20px;
-    box-sizing: border-box;
-    border-radius: 0px;
-    transition: .4s;
+*{
+    font-family: 'Raleway', sans-serif; 
 }
-.btn:hover , .btn2{    
+                 
+                    
+                 
+                    /**============ START BANNER PART ============**/
+.blood_bonate_banner{
+    background: url(../img/donate_banner.png);
+    padding: 0px 120px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blood_bonate_banner{
+    display: flex;
+    align-items: center;
+}
+.blood_bonate_banner h2{
+    font-size: 30px;
+    color: #111111;
+}
+.blood_bonate_banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+}
+.blood_bonate_banner p{
+ 	font-size: 16px;
+    text-align: justify;
+ 	color: #343333;
+    padding: 8px;
+}
+.blood_bonate_banner .btn2{    
     background-color: #e08087;
     color: #fff;
-	padding: 10px 20px;
+	padding: 15px 20px;
     box-sizing: border-box;
     border-radius: 0px;
     transition: .4s;
     border: none;
     margin-right: 20px;
 }                  
-                    
-                    
-                    
-                    /**============ START BANNER PART ============**/
-.blood_bonate_banner{
-    /* background: linear-gradient(#5893b5,#afe5ff); */
-    background: url(../img/donate_banner.png);
-    padding: 0px 100px;
+   
+.blood_bonate_banner .btn2:hover{
+	color: #101010;
+	background: #fff;
+	padding: 15px 20px;
     box-sizing: border-box;
-    width: 100%;
-    height: 90vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    /* object-fit: cover; */
-}
-.blood_bonate_banner .banner_part{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.blood_bonate_banner .banner_left h2{
-    font-size: 30px;
-    color: #111111;
-}
-.blood_bonate_banner .banner_left h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: #111111;
-}
-.blood_bonate_banner .banner_left p{
- 	font-size: 14px;
-    text-align: justify;
- 	color: #505358;
-}
-.blood_bonate_banner .banner_left .btn{
- 	font-size: 13px;
- 	color: #ffffff;
- 	margin: 0px 10px;
-    background-color: #00b3fe;
-}
-
-.blood_bonate_banner .banner_left .btn:hover{
-	background-color: #004274;
-}
- 
-.blood_bonate_banner .banner_right {
-    padding-left: 50px;
-}
-.blood_bonate_banner .banner_right img{
-    width: 100%;
-    height: 100%;
+    border-radius: 0px;
+    transition: .4s;
 }
 
 					/**============ END BANNER PART ============**/
