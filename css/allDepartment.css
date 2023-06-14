@@ -1,0 +1,37 @@
+.allDepartment_section {
+    padding: 50px 0;
+}
+.allDepartment_section .allPart_photo img{
+    height: 300px;
+    width: 100%;
+}
+.allDepartment_section .allPart_text{
+    padding-left: 50px;
+}
+.allDepartment_section .allPart_text h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.allDepartment_section .allPart_text p{
+    color: #585858;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.daignostic_section img{
+    position: relative;
+}
+.daignostic_section .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daignostic_section p{
+    margin-bottom: 0;
+}
